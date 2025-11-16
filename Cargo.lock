@@ -315,13 +315,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "72b3254f16251a8381aa12e40e3c4d2f0199f8c6508fbecb9d91f575e0fbb8c6"
 
 [[package]]
-name = "bead"
-version = "0.1.0"
-dependencies = [
- "bevy",
-]
-
-[[package]]
 name = "bevy"
 version = "0.17.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2843,6 +2836,13 @@ checksum = "3c8469b4a23b962c1396b9b451dda50ef5b283e8dd309d69033475fa9b334324"
 dependencies = [
  "libc",
  "pkg-config",
+]
+
+[[package]]
+name = "lignicide"
+version = "0.1.0"
+dependencies = [
+ "bevy",
 ]
 
 [[package]]
